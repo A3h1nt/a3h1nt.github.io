@@ -20,7 +20,7 @@ Truecrypt support two types of volumes:
 - **Standard TrueCrypt Volume** : This is the normal way of creating a TrueCrypt volume, where the user simply enters the password mounts the drive and starts interacting with the virtual volume.
 - **Hidden TrueCrypt Volume** : This method of creating volumes is used, when the user wants to create a hidden volume that can't be detected, this method creates a hidden TrueCrypt volume inside another TrueCrypt volume.
 
-![t](/images/Pasted image 20210624091732.png){:.shadow}
+![t](/Images/tc.png){:.shadow}
 
 ## TrueCrypt On Linux
 TrueCrypt can be installed from [here](http://truecrypt.sourceforge.net/OtherPlatforms.html).

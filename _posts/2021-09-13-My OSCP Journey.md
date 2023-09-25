@@ -61,7 +61,7 @@ Twelve hours in and i had enough points to pass since i was already tired i aske
 ## Post-Exam
 Since i already had the template ready, creating the report was not a problem, i submitted the report and got the mail the next day/.
 
-![t](/images/Screenshot 2021-09-13 at 5.56.36 PM.png){:.shadow}
+![t](/Images/Screenshot 2021-09-13 at 5.56.36 PM.png){:.shadow}
 
 
 ## Some Questions
