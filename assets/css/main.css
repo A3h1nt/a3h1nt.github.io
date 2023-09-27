@@ -2783,6 +2783,13 @@ pre:hover {
 
 .layout--404 .sign p { font-size: 1.8rem; }
 
+.cert {
+	display: inline-block;
+	margin: 4px;
+	width: 273px;
+}
+
+
 
 
 
