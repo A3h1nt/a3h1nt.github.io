@@ -117,7 +117,7 @@ Contents of our newly created file :
 <a href='https://link.com' target="_blank" rel="noopener noreferrer"></a>
 
 /* For window.open set */
-newWnd.opener = null;
+window.opener = null;
 ```
 
 - You can also implement [COOP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy) ( Cross Origin Opener Policy ), this will make sure the new window does not have reference to the source window and also sets window opener property to null.
