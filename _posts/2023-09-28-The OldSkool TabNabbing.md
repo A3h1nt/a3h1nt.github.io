@@ -11,19 +11,19 @@ sidebar:
 
 
 Welcome back hackers ! 
-It's going to be 2024 in two months, I remember i wrote my last blog in 2021 and a lot has changed since then, due to some personal issues i wasn't able to continue with the security field entirely, but now i am back, and here's the "old , but interesting vulnerability". Some people also consider TabNabbing as irrelevant, which is true, given the advancements made in browser's security , but nevertheless it is an interesting vulnerability to read about.
+It's going to be 2024 in three months, I remember i wrote my last blog in 2021 and a lot has changed since then, due to some personal issues i wasn't able to continue with the security field entirely, but now i am back, and here's the "old , but interesting vulnerability". Some people also consider TabNabbing as irrelevant, which is true, given the advancements made in browser security , but nevertheless, it is an interesting vulnerability to read about.
 ## Opening a new tab
 
 A website has two ways of specifying a hyperlink, either through the anchor tag or through window.open method in javascript.
 
 - Anchor Tag 
 ```html
-<a href='https://link.com' target="_blank"></a>
+<a href='https://www.anythinghere.com' target="_blank"></a>
 ```
 
 - Window.open( )
 ```js
-window.open("https://www.w3schools.com");
+window.open("https://www.anythinghere.com");
 ```
 
 Whenever a website opens a link in another tab, a `window.opener` property is created, this property is usually used to provide context of the source website that opened the link.
@@ -32,11 +32,12 @@ According to W3School, the `opener` property returns a reference to the source
 
 ```bash
 [Website - A] ----OPENS----> [Website - B]
+
 [Website - B] ----window.opener("https://websiteA.com")----> [Website - A]
 ```
 
 1. `Website-A` opens `Website-B` and passes the window.opener property to it.
-2. `Website-B` returns the reference to the source window
+2. `Website-B` returns the reference to the source window.
 
 Example : ( Credits : [Shatabda](https://medium.com/@shatabda/security-tabnabbing-what-how-b038a70d300e ) )
 
@@ -47,9 +48,9 @@ While accessing your account in a website, it requires you to enter the credenti
 Until the first step, when `Website-A` opens `Website-B` everything looks fine. But, in the second stage we can see that `Website-B` provides the location/link to `Website-A` through the opener property. 
 So as an attacker if i can manage to insert a link to a `Website-B` let's say through comments section in `Website-A`, then once the user clicks on the link and is directed to `Website-B` on a different tab which will have the `window.opener()` property, using this property the attacker  can replace `Website-A` with a phishing website `WebsitePhish-A` while the user is still on `Website-B`, this way a user can be phished easily.
 
-## What is tab nabbing ?
+## What is TabNabbing ?
 
-Tab nabbing is a web application attack, where an attacker is able to nab information from a victim by supplying a link in the source website that the victim visits, once the victim clicks on the link, the source website opens another tab, this newly opened tab simply replaces the source website with some malicious look alike website through `window.opener()` property, hence tricking the victim into giving out information.
+TabNabbing is a web application attack, where an attacker is able to nab information from a victim by supplying a link in the source website that the victim visits, once the victim clicks on the link, the source website opens another tab, this newly opened tab simply replaces the source website with some malicious look alike website through `window.opener()` property, hence tricking the victim into giving out information.
 
 ## Impact
 
@@ -57,7 +58,7 @@ This attack is primarily used for phishing, successful execution of this attack 
 
 ## Practice Lab 
 
-Download the lab setup from [here](some-github-link)
+Download the lab setup from [here](https://github.com/A3h1nt/TabNabbing)
 
 ### Working
 
@@ -70,15 +71,15 @@ So there are four main files :
 
 ### Walkthrough
 
-1. The user navigates to the legit website `login.php`
+- The user navigates to the legit website `login.php`
 
 ![t](/Images/tabnabbing/1.png){:.shadow}
 
-2. Enters her/his credentials into the website and is redirected to the `dashboard.php` page.
+- Enters her/his credentials into the website and is redirected to the `dashboard.php` page.
 
 ![t](/Images/tabnabbing/2.png){:.shadow}
 
-3. The user clicks on the "cool link" and a new tab is opened `tabNabbing.html`
+- The user clicks on the "cool link" and a new tab is opened `tabNabbing.html`
 
 ![t](/Images/tabnabbing/3.png){:.shadow}
 
@@ -93,7 +94,7 @@ This page contains all the evil code that will replace the source tab with the m
 </script>
 ```
 
-4. When the user returns to the source tab, notice the page says `Logged Out due to an error ! 
+- When the user returns to the source tab, notice the page says `Logged Out due to an error ! 
 
 ![t](/Images/tabnabbing/4.png){:.shadow}
 
