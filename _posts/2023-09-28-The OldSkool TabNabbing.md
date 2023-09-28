@@ -11,7 +11,7 @@ sidebar:
 
 
 Welcome back hackers ! 
-It's going to be 2024 in three months, I remember i wrote my last blog in 2021 and a lot has changed since then, due to some personal issues i wasn't able to continue with the security field entirely, but now i am back, and here's the "old , but interesting vulnerability". Some people also consider TabNabbing as irrelevant, which is true, given the advancements made in browser security , but nevertheless, it is an interesting vulnerability to read about.
+It's going to be 2024 in three months, I remember i wrote my last blog in 2021 and a lot has changed since then, due to some personal issues i wasn't able to continue with the security field entirely, but now i am back, and here's an "old , but interesting vulnerability". Some people also consider TabNabbing as irrelevant, which is true, given the advancements made in browser security , but nevertheless, it is an interesting vulnerability to read about.
 ## Opening a new tab
 
 A website has two ways of specifying a hyperlink, either through the anchor tag or through window.open method in javascript.
