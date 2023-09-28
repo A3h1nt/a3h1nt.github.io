@@ -94,7 +94,7 @@ This page contains all the evil code that will replace the source tab with the m
 </script>
 ```
 
-- When the user returns to the source tab, notice the page says `Logged Out due to an error ! 
+- When the user returns to the source tab, notice the page says `Logged Out due to an error !` 
 
 ![t](/Images/tabnabbing/4.png){:.shadow}
 
