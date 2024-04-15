@@ -71,6 +71,12 @@ layout: page
         source0=layout.articles.show_info source1=page.articles.show_info -%}
       {%- assign _show_info = __return -%}
 
+      <!--add one snippet here, whenever you add new blog-->
+      {%- include snippets/assign.html
+        target=site.data.variables.default.page.articles.show_info
+        source0=layout.articles.show_info source1=page.articles.show_info -%}
+      {%- assign _show_info = __return -%}
+
       {%- assign _article_type = page.articles.article_type | default: layout.articles.article_type -%}
       {%- assign _cover_size = page.articles.cover_size | default: layout.articles.cover_size -%}
       {%- assign _excerpt_type = page.articles.excerpt_type | default: layout.articles.excerpt_type -%}

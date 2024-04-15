@@ -9,21 +9,18 @@ header:
       en      : &EN       /about
     url: /about.html
 
-
 blogs:
-  - title:      
+  - title:   
     children:
-      - title:  TrueCrypt Explained
-        url:   /2021/05/24/TrueCrypt-Explained.html
-      - title: My OSCP Journey
-        url:   /2021/09/13/My-OSCP-Journey.html
-      - title: LLMNR Poisoning
-        url:   /2021/10/03/LLMNR-Poisoning-Explained.html
+      - title: Burp Suite Certified Practitioner Review
+        url:   /2024/04/15/Burp-Suite-Certified-Practitioner-Review.html
+      - title: Karma & Mana - The Evil Twins and the Neighbours
+        url:   /2023/10/15/Karma-&-Mana-The-Evil-Twins-and-the-Neighbours.html
       - title: The OldSkool TabNabbing
         url:   /2023/09/28/The-OldSkool-TabNabbing.html
-      - title: Karma & Mana - The Evil Twins and the Neighbours
-        url:   /2023/10/15/Karma-&-Mana-The-Evil-Twins-and-the-Neighbours.html  
-
-
-
-
+      - title: LLMNR Poisoning
+        url:   /2021/10/03/LLMNR-Poisoning-Explained.html
+      - title: My OSCP Journey
+        url:   /2021/09/13/My-OSCP-Journey.html
+      - title: TrueCrypt Explained
+        url:   /2021/05/24/TrueCrypt-Explained.html
