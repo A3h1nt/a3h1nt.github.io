@@ -124,4 +124,4 @@ This way, you can basically use the preventive measures as a way to eliminate vu
 
 ## A Message For PortSwigger
 
-Thank you so much for the amazing learning experience. You guys have one of the best knowledge-rich contents on the planet. BSCP has been a great experience, and I am looking forward to new content in the future. I have a few suggestions. First and foremost, improve the certificate design, and if possible, provide a physical copy of the certificate to people who've cleared it. There's a more promising sense of achievement that comes with the physical touch.
+Thank you so much for the amazing learning experience. You guys have one of the best knowledge rich contents on the planet. BSCP has been a great experience, and I am looking forward to new content in the future. I have a few suggestions. First and foremost, improve the certificate design, and if possible, provide a physical copy of the certificate to people who've cleared it. There's a more promising sense of achievement that comes with the physical touch.
