@@ -12,6 +12,8 @@ header:
 blogs:
   - title:   
     children:
+      - title: Hacking The Parrot - LLM Security
+        url:   /2024/05/31/Hacking-The-Parrot-LLM-Security.html
       - title: Burp Suite Certified Practitioner Review
         url:   /2024/04/15/Burp-Suite-Certified-Practitioner-Review.html
       - title: Karma & Mana - The Evil Twins and the Neighbours
