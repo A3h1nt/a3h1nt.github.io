@@ -9,8 +9,6 @@ sidebar:
   nav: blogs
 ---
 
-# Hacking the Chinese hackers
-
 *This is an ongoing effort of shutting down people, evil people. I won't really call it a typical investigation, but a simple effort to hack someone evil.*
 
 ## Backstory
