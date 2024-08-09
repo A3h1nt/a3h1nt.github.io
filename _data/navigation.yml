@@ -12,6 +12,8 @@ header:
 blogs:
   - title:   
     children:
+      - title: Hacking The Salon Next Door
+        url:   /2024/08/10/Hacking-The-Salon-Next-Door.html
       - title: Taking Down Chinese Hackers
         url:   /2024/08/06/Taking-Down-Chinese-Hackers.html
       - title: Hacking The Parrot - LLM Security
