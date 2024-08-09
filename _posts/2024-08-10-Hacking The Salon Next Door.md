@@ -80,7 +80,7 @@ Using the numbers enumerated from the client panel, i was able to get into a Sal
 
 ![t](/Images/salon/Pasted image 20240810002548.png){:.shadow}
 
-Similar to the client portal, this portal was also vulnerable to broken authorization and i was able to access the data & account of any other salon owner. The access allowed me to create new services, set prices for them, view all appointments and total revenue etc. 
+Similar to the client portal, this portal was also vulnerable to broken authorization and i was able to access the data & account of any other salon owner. The access allowed me to create new services, set prices for them, view all appointments and total revenue etc.
 
 Just to clarify what all was compromised, here's a visual representation of it.
 
