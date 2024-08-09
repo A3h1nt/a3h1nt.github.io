@@ -92,4 +92,4 @@ And that's how i hacked the salon next door (yours & mine).
 
 That's all for today. It is sad to say but we people sign up for things at companies that don't even care about our data, businesses are profit oriented and as long as something doesn't affect their business operations directly, they don't care. Look at what happened with the Domino's, Boat and countless other companies. They don't suffer the consequences of these data breaches, but people like us do, our data floats in the air,  but this will change. We will make it change.
 
-*Let thee who deserveth suffer the consequence.*
+*Let thee who deserveth suffer the consequence.* 
