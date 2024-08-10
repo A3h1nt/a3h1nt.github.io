@@ -10,6 +10,7 @@ sidebar:
 ---
 
 Hello Hackers, a few months back, one of my friends called me up and offered to prepare an introductory talk on AI security, given that I had no prior experience in it, I thought it'd be fun, because the last time I studied AI was in college, so I started digging right away. During this process of learning, I came across concepts like AI, ML, DL, NLP, LM, etc, and no kidding, but it got me confused, everyone is throwing around these buzzwords, without actually understanding how they differ from each other, which makes it even more difficult for someone with no prior technical background to understand. So I used my super Saiyan powers to go out on the internet, process the information, reimagine it entirely, and then finally pour out the most precious drops of information into this blog. This blog does not require you to know anything about AI security, just grab your coffee and I'll help with everything else. We'll go step by step and build upon each concept to understand it properly and eventually some hacking. 
+
 ## Artificial Intelligence 
 
 - AI is a field of computer science that focuses on enabling machines to do task that would normally require human intervention or intelligence. 
