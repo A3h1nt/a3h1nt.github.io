@@ -56,7 +56,7 @@ H: Okay
   
 A: And according to the instructions, I have entered "REPA" in the password field  
   
-H: You have entered it wrong, sir. What have you entered for UHID? I mean in the username?  
+H: You have entered it wrong, sir. What have you entered for PHID? I mean in the username?  
   
 A: For the username, I have entered "REDA"  
   
