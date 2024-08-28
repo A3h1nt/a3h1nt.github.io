@@ -37,7 +37,7 @@ But... none of it worked :(
 
 ![t](/Images/medical/3.png){:.shadow}
 
-### Social Engineering
+### Calling Your Hospital
 
 After exhausting all the ideas, i called up the hospital and here's how it went
 
