@@ -9,7 +9,7 @@ sidebar:
   nav: blogs
 ---
 
-*The screenshots in these photos have been intentionally edited to maintain the identity of the company and keep it confidential.*
+*The screenshots in this blog have been intentionally edited to maintain the identity of the company and keep it confidential.*
 
 ## Backstory
 
@@ -97,7 +97,7 @@ This seemed like an admin panel to the administrative dashboard, i made this ass
 admin' OR 1=1-- -
 ```
 
-A simple, basic, vintage SQL injection did the trick and i was in. That's not it, the scary part was that what i just bypassed was the admin panel to access and manage all the reports that have been ever since the website started.
+A simple, basic, vintage SQL injection did the trick and i was in. That's not it, the scary part was,  what i just bypassed was the admin panel to access and manage all the reports that have been ever since the website started.
 
 ![t](/Images/medical/6.png){:.shadow}
 
@@ -110,12 +110,13 @@ I had access to around a million of medical reports.
 
 You thought that was it ? Well, pretty much, but here's a little more.
 
-The next thing i did was pull out some research on the software company that built the system to find out how many other hospitals were affected. For that i used multiple techniques.
+The next thing i did was pull out some research on the software company that built the system to find out how many other hospitals were affected. For that i used the following techniques.
 
 - **Google Dorks :**
 	- Used the copyright in footer of the login page and found four more hospitals affected by this.
+  - The title of the login panel also resulted in some findings.
 - **Active Recon :**
-	- The software company had the client names mentioned on their website, which gave me an overview of how many systems were affected by this. The software company did not only created these systems for medical industry but other industries as well, including real estate, distributors etc.
+	- The software company had the client names mentioned on their website, which gave me an overview of how many systems were affected by this. The software company did not only create these systems for medical industry but other industries as well, including real estate, distributors etc.
 
-But i did not perform any tests or anything on other clients, since i didn't have permission to do so. But yes, i did inform the software company about the issue. But it's sad to see such critical infrastructures maintained by such incompetent software devs who don't understand security, i mean a basic SQLi in 2024? That's BAD. I understand companies are meant to be profit driven, and there's nothing bad about it, but they should also be value driven, taking care of your client by ensuring the client's data is well protected and secure. The client comes to you with trust in your ability, don't break that please.
+I did not perform any test cases on other clients, since i didn't have permission to do so. But yes, i did inform the software company about the issue. But it's sad to see such critical infrastructures maintained by such incompetent software devs who don't understand security, i mean a basic SQLi in 2024? That's BAD. I understand companies are meant to be profit driven, and there's nothing bad about it, but they should also be value driven, taking care of your client by ensuring the client's data is well protected and secure. The client comes to you with trust in your ability, don't break that please.
 
