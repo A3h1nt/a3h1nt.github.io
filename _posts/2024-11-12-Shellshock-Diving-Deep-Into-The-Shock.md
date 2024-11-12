@@ -74,7 +74,7 @@ Now create a child process
 
 ![t](/Images/shellshock/4.png){:.shadow}
 
-Wait, did you notice something weird ? We did not call the function, but the command that we supplied is executed automatically as part of the child process. The child process replaces `=` with a blank space, but executes the next command on it's own. Meaning, we can inject any command in the function definition environment variable and execute command on the target server i.e. `Shellshock`.
+Wait, did you notice something weird ? We did not call the function, but the command that we supplied is executed automatically as an individual command by the child process. The child process replaces `=` with a blank space, which completes the function definition, the next command is left unprocessed and is executed by the shell. Meaning, we can inject any command in the function definition environment variable and execute command on the target server i.e. `Shellshock`.
 
 But what's the point of getting a code execution in your own terminal ? We need to find vectors through which we can remotely inject function definition into environment variables. This is where CGI scripts come into picture.
 
