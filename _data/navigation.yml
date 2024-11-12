@@ -12,7 +12,7 @@ header:
 blogs:
   - title:   
     children:
-      - title: Shellshock - Diving Into The Shock
+      - title: Shellshock - Diving Deep Into The Shock
         url:   /2024/11/12/Shellshock-Diving-Deep-Into-The-Shock.html
       - title: Hacking Into Your Medical History
         url:   /2024/08/28/Hacking-Into-Your-Medical-History.html
