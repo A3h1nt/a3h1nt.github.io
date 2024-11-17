@@ -12,6 +12,8 @@ header:
 blogs:
   - title:   
     children:
+      - title: PHP Type Juggling - Explained
+        url:   /2024/11/17/PHP-Type-Juggling-Explained.html
       - title: Shellshock - Diving Deep Into The Shock
         url:   /2024/11/12/Shellshock-Diving-Deep-Into-The-Shock.html
       - title: Hacking Into Your Medical History
