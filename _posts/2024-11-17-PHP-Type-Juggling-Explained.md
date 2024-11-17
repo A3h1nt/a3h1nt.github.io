@@ -218,5 +218,5 @@ That's pretty much everything you need to know about Type Juggling, i hope you e
 
 <div>{%- include extensions/youtube.html id='B5dUg8GEIRY' -%}</div>
 
-Stay safe, keep hacking.
+*Stay safe, keep hacking.*
 
