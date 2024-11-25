@@ -91,7 +91,7 @@ I tried to dig around some information around the faces and watched some more ad
 
 Also, i don't agree with claims like 
 - `AI will replace you`
-- `Employees are getting layed off because of AI, so if you don't want to get laid off, take this course`.
+- `Employees are getting laid off because of AI, so if you don't want to get laid off, take this course`.
 
 I know AI is rising in popularity and is definitely a good skill to have, but fear mongering isn't. 
 
