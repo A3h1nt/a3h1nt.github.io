@@ -12,6 +12,8 @@ header:
 blogs:
   - title:   
     children:
+      - title: 10x Hacking With Be10x
+        url:   /2024/11/25/10x-Hacking-With-Be10x.html
       - title: PHP Type Juggling - Explained
         url:   /2024/11/17/PHP-Type-Juggling-Explained.html
       - title: Shellshock - Diving Deep Into The Shock
