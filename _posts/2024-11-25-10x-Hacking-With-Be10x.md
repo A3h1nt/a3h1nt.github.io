@@ -77,7 +77,7 @@ Coming back to `Be10x`, i did some digging and instantly found a face not so dif
 
 ![t](/Images/10x/10.png){:.shadow}
 
-You remember these people? These are our saviours, the warriors to protect us from the wrath of AI, the sell their courses for just 9 rupees to prevent us from being kicked out of our current job. I checked `be10x` youtube channel, and do you know what i found ?
+You remember these people? These are our saviours, the warriors to protect us from the wrath of AI, they sell their courses for just 9 rupees to prevent us from being kicked out of our current job. I checked `be10x` youtube channel, and do you know what i found ?
 
 ![t](/Images/10x/11.png){:.shadow}
 
