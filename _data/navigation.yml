@@ -12,6 +12,8 @@ header:
 blogs:
   - title:   
     children:
+      - title: Hacking Razorpay Phishing Scammer
+        url:   /2024/12/10/Hacking-The-Razorpay-Phishing-Scammer.html
       - title: 10x Hacking With Be10x
         url:   /2024/11/25/10x-Hacking-With-Be10x.html
       - title: PHP Type Juggling - Explained
