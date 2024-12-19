@@ -13,6 +13,8 @@ sidebar:
 
 Before you continue to read this blog, there are few things i want you to understand, the thoughts and ideas presented in this blog are solely based on my experience and more importantly the kind of people i interacted with, within the firm. It does not represent any particular employer, but rather experiences that any new comer faces, including me. I've worked in the industry for 1.5 year, which is not a lot of time. Hence, my experience is limited, think of this blog as me talking to my younger self, explaining things to make it a little easier. This blog doesn't talk about cybersecurity concepts, topics or skills that'll help you in your cybersecurity career but rather mindset and experiences that you'll likely encounter in not just cybersecurity but any work environment.
 
+![t](/Images/lesson/ladder.jpeg){:.shadow}
+
 ## 1. You know very little 
 
 - Once you get your first cybersecurity job, you will find people who are better than you at a lot of things, they talk about things you've never heard of, use words that goes straight above your head, pop shells using methods you don't even know about. These people will motivate you the most, try to be around such people, learn from them as much as you can, even if you are unable to work with them, you can still take inspiration from them and their experiences. Ask as many questions as you can.
