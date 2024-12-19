@@ -43,7 +43,7 @@ Before you continue to read this blog, there are few things i want you to unders
 
 
 - If you are a cybersecurity client, you know how much you are paying, and it's simply sad when you pay so much for quality, but you get reports on applications that might be superficially tested.
-- Now, i don't have anything against new comers, or people who are new to X technology. I understand they are trying to learn and they will learn by doing. The solution here is shadowing a project to learn. Let's say a newcomer does not understand X technology, let's him shadow a project with X technology texted by an experienced tester.
+- Now, i don't have anything against new comers, or people who are new to X technology. I understand they are trying to learn and they will learn by doing. The solution here is shadowing a project to learn. Let's say a newcomer does not understand X technology, let's him shadow a project with X technology tested by an experienced tester.
 - Another way to ensure quality is report review. An experienced tester, reviews the report thoroughly before it is released to the client.
 
 *The only person who needs to care or should care about expanding your personal knowledge pool is you, no one gives a shit about whether learn or not. Don't speak, show.*
@@ -58,14 +58,14 @@ Before you continue to read this blog, there are few things i want you to unders
 
 ## 4. Certifications Post Job 
 
-- First of all, i don't think certifications should solely be done to get a job, your primary focus should be to improve your skills and then get certified. I understand, doing certs just for learning is not feasible for everyone, obviously it is an investment in the long term. So, if you really want to do just one cert, I would suggest OSCP, no matter what the noise says, it is what it is.
+- First of all, i don't think certificates should solely be done to get a job, your primary focus should be to improve your skills and then get certified. I understand, doing certs just for learning is not feasible for everyone, obviously it is an investment in the long term. So, if you really want to do just one cert, I would suggest OSCP, no matter what the noise says, it is what it is.
 
-- One might thing that certifications only play a role in getting you a job. But that's not the entire truth, certifications also play a role, even after you get a job. For example, some clients only ask for OSCP holders to work on their assets.
+- One might think that certificates only play a role in getting you a job. But that's not the entire truth, certificates also play a role, even after you get a job. For example, some clients only ask for OSCP holders to work on their assets.
 
 *Do certificates to learn and test. That's all it is, a document that acknowledges a skill.*
 
 ## Conclusion
 
-That's pretty much it for this blog, everyone's experience is different and a lot of things mentioned in this blog are subjective, but learnings are universal and will help you in the long run. After all, it's a marathon, not a race, unlike bug bounty.
+That's pretty much it for this blog, everyone's experience is different and a lot of things mentioned in this blog are subjective, take what helps you and keep the rest in mind. After all, it's a marathon, not a race, unlike bug bounty.
 
 *Stay Safe & Keep Hacking* 
