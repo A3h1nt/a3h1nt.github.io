@@ -195,8 +195,8 @@ There are different ways in which people with different skillset can contribute 
 4. If you are in cybercrime police department or know someone, reach out to the ISP, as they don't entertain emails normally.
 5. Share the scam information with as many people as possible, the only long term way to defeat this, is to be aware of what to click and where to submit.
 6. Lastly, if you find a new phishing scam, or a phishing website, or anything that aims to scam people, let us know. It's not possible to hack everything and anything on the internet, but the best we could do is try with what we have.
-#
-# Conclusion
+
+## Conclusion
 
 This experience made me realise the true meaning of the quote *with great power, comes great responsibility* and also gave me an insight into how direct our impact can be on the society as hackers. I really hope, we all come together to fight against these evils and not just die finishing client reports. Let's make internet a safer place.
 

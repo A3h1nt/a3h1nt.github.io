@@ -12,6 +12,8 @@ header:
 blogs:
   - title:   
     children:
+      - title: Learnings From My First Cybersecurity Job
+        url:   /2024/12/10/Learnings-From-My-First-Cybersecurity-Job.html
       - title: Hacking Razorpay Phishing Scammer
         url:   /2024/12/10/Hacking-The-Razorpay-Phishing-Scammer.html
       - title: 10x Hacking With Be10x
