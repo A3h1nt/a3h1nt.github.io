@@ -13,7 +13,7 @@ key: page-about
 
 
 ## $whoami
-Hello and welcome to my website! I'm Achint, an aspiring Red Teamer with a passion for all things related to cybersecurity and information security. Currently, I work as a Security Analyst, my core interest lies in the fascinating world of network security, infrastructure protection, and physical security. In addition to my day-to-day responsibilities, I love tinkering with technology and developing unique tools that can help with day to day tasks. These tools not only satisfy my curiosity but also allows me to contribute to the community. Feel free to reach me out on Twitter [@A3h1nt](https://twitter.com/A3h1nt) to discuss anything security.
+Hello and welcome to my website! I'm Achint, a hacker with a passion for all things related to cybersecurity and information security. Currently working as a Security Engineer trying to chain lows to get the highs. In addition to my day-to-day responsibilities, I love writing code in ruby and developing tools that can help with day to day tasks. These tools not only satisfy my curiosity but also allows me to contribute to the community. Feel free to reach me out on Twitter [@A3h1nt](https://twitter.com/A3h1nt) to discuss anything security.
 
 
 ## $Certificates
